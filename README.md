@@ -4,6 +4,13 @@ Flutter Code Evenings is a series of events in [Minsk](https://www.google.com/ma
 
 This repo contains code samples coded during this events
 
+We are active on twitter 🐦:
+
+| Activity                   | Hashtag             | Post                                                                | View                                                                       |
+| -------------------------- | ------------------- | ------------------------------------------------------------------- | -------------------------------------------------------------------------- |
+| Questions                  | #fceask             | [Post](https://twitter.com/intent/tweet?text=%23fceask)             | [View](https://twitter.com/search?q=%23fceask&src=typed_query)             |
+| Feedback, pics, memes, etc | #fluttercodeevening | [Post](https://twitter.com/intent/tweet?text=%23fluttercodeevening) | [View](https://twitter.com/search?q=%23fluttercodeevening&src=typed_query) |
+
 ## Event registration
 
 - [Mar 10, 2020](https://community-z.com/events/flutter-2)
