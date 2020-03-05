@@ -28,6 +28,6 @@ You can [provide your feedback here](https://docs.google.com/forms/d/e/1FAIpQLSc
 
 ---
 
-[![lesnitsky.dev](https://lesnitsky.dev/icons/shield.svg?hash=42)](https://lesnitsky.dev?utm_source=flutter_localstroage)
+[![lesnitsky.dev](https://lesnitsky.dev/icons/shield.svg?hash=42)](https://lesnitsky.dev?utm_source=flutter_code_evenings)
 [![GitHub stars](https://img.shields.io/github/stars/lesnitsky/flutter_code_evenings.svg?style=social)](https://github.com/lesnitsky/flutter_code_evenings)
 [![Twitter Follow](https://img.shields.io/twitter/follow/lesnitsky_dev.svg?label=Follow%20me&style=social)](https://twitter.com/lesnitsky_dev)
