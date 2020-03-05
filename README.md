@@ -11,12 +11,20 @@ We are active on twitter 🐦:
 | Questions                  | #fceask             | [Post](https://twitter.com/intent/tweet?text=%23fceask)             | [View](https://twitter.com/search?q=%23fceask&src=typed_query)             |
 | Feedback, pics, memes, etc | #fluttercodeevening | [Post](https://twitter.com/intent/tweet?text=%23fluttercodeevening) | [View](https://twitter.com/search?q=%23fluttercodeevening&src=typed_query) |
 
+## Practice your Flutter skills
+
+Feel free to submit PRs addressing issues with [practice label](https://github.com/lesnitsky/flutter_code_evenings/issues?q=is%3Aissue+is%3Aopen+label%3Apractice)
+
 ## Event registration
 
 - [Mar 10, 2020](https://community-z.com/events/flutter-2)
 - [Mar 17, 2020](https://community-z.com/events/flutter-3)
 - [Mar 24, 2020](https://community-z.com/events/flutter-4)
 - [Mar 31, 2020](https://community-z.com/events/flutter-5)
+
+## Events feedback
+
+You can [provide your feedback here](https://docs.google.com/forms/d/e/1FAIpQLScDU54u0UXdKW_vlp7JkhMEeqipqmUSrq5_QlyjWtAzLf43FA/viewform)
 
 ---
 
