@@ -15,6 +15,12 @@ We are active on twitter 🐦:
 
 Feel free to submit PRs addressing issues with [practice label](https://github.com/lesnitsky/flutter_code_evenings/issues?q=is%3Aissue+is%3Aopen+label%3Apractice)
 
+## Videos
+
+| Title | RU | EN |
+|---|---|---|
+| Code evening #1. Layout | [RU](https://www.youtube.com/watch?v=EQQHm6e4ozI) | Coming soon |
+
 ## Event registration
 
 - [Mar 10, 2020](https://community-z.com/events/flutter-2)
