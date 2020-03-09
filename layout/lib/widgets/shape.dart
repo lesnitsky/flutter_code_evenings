@@ -1,21 +1,22 @@
 import 'package:flutter/material.dart';
 
-class Rectangle extends StatelessWidget {
+class Shape extends StatelessWidget {
   final Color color;
+  final String type;
   final double width;
   final double height;
 
-  const Rectangle({Key key, this.color, this.width, this.height})
-      : super(key: key);
+  const Shape({Key key, this.color, this.type, this.width, this.height}) : super(key: key);
+
   @override
   Widget build(BuildContext context) {
     return Container(
-      decoration: BoxDecoration(
-          color: color,
-          shape: BoxShape.rectangle,
-          border: Border.all(color: Colors.black, width: 0.5)),
       width: width,
       height: height,
+      decoration: BoxDecoration(
+          color: color,
+          shape: type == 'circle' ? BoxShape.circle : BoxShape.rectangle,
+          border: Border.all(color: Colors.black, width: 0.5)),
     );
   }
 }

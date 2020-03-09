@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
-import 'package:layout/widgets/circle.dart';
 import 'package:layout/widgets/layout_page.dart';
-import 'package:layout/widgets/rectangle.dart';
+import 'package:layout/widgets/shape.dart';
 
 class Practice4 extends StatelessWidget {
   final color = Color.fromRGBO(110, 208, 246, 1);
@@ -30,13 +29,18 @@ class Practice4 extends StatelessWidget {
                       children: <Widget>[
                         Container(
                           margin: EdgeInsets.only(left: 20),
-                          child: Circle(color: Colors.white, radius: 40),
+                          child: Shape(
+                            color: Colors.white,
+                            width: 40.0,
+                            height: 40,
+                            type: 'circle',
+                          ),
                         ),
                         Expanded(
                           flex: 5,
                           child: Container(
                             padding: EdgeInsets.only(right: 30, left: 10),
-                            child: Rectangle(
+                            child: Shape(
                               color: Colors.white,
                               height: 40,
                             ),

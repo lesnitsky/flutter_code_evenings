@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:layout/widgets/circle.dart';
+import 'package:layout/widgets/shape.dart';
 import 'package:layout/widgets/layout_page.dart';
 
 class Practice2 extends StatelessWidget {
@@ -21,9 +21,11 @@ class Practice2 extends StatelessWidget {
                 ),
                 Container(
                   margin: EdgeInsets.all(20),
-                  child: Circle(
+                  child: Shape(
                     color: color,
-                    radius: 60.0,
+                    width: 60.0,
+                    height: 60.0,
+                    type: 'circle',
                   ),
                 )
               ],

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:layout/widgets/circle.dart';
+import 'package:layout/widgets/shape.dart';
 import 'package:layout/widgets/layout_page.dart';
 
 class Practice3 extends StatelessWidget {
@@ -7,29 +7,29 @@ class Practice3 extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    var _circles = new List<Circle>.generate(10, (i) {
-      return Circle(color: color);
+    var _circles = new List<Shape>.generate(10, (i) {
+      return Shape(color: color, type: 'circle');
     });
 
     return LayoutPage(
       title: 'Num Keys layout',
-      child: Padding(
-        padding: const EdgeInsets.all(30.0),
-        child: Expanded(
+      child: Expanded(
           child: GridView.builder(
             // How I can do GridView center?
             gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
               crossAxisCount: 3,
-              mainAxisSpacing: 20.0,
-              crossAxisSpacing: 20.0,
+              mainAxisSpacing: 10.0,
+              crossAxisSpacing: 10.0,
             ),
             itemCount: _circles.length,
             itemBuilder: (context, index) {
-              return _circles[index];
+              return Padding(
+                padding: const EdgeInsets.all(5.0),
+                child: _circles[index],
+              );
             }
           )
-        ),
-      ),
+      )
     );
   }
 }
