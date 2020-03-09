@@ -1,5 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:layout/layouts/flex.dart';
+import 'package:layout/layouts/practice2.dart';
+import 'package:layout/layouts/practice3.dart';
+import 'package:layout/layouts/practice4.dart';
 
 void main() {
   runApp(App());
@@ -33,7 +36,25 @@ class AppContent extends StatelessWidget {
           onTap: () {
             _open(context, FlexLayout());
           },
-        )
+        ),
+        ListTile(
+          title: Text('Floating action button layout'),
+          onTap: () {
+            _open(context, Practice2());
+          },
+        ),
+        ListTile(
+          title: Text('Num Keys layout'),
+          onTap: () {
+            _open(context, Practice3());
+          },
+        ),
+        ListTile(
+          title: Text('Pill layout'),
+          onTap: () {
+            _open(context, Practice4());
+          },
+        ),
       ],
     );
   }
