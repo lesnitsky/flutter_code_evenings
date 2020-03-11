@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:layout/layouts/flex.dart';
+import 'package:layout/layouts/numbers_layouts.dart';
 
 void main() {
   runApp(App());
@@ -11,7 +11,7 @@ class App extends StatelessWidget {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-          title: Text('Layouts'),
+          title: Text('Number\'s Layouts'),
         ),
         body: AppContent(),
       ),
@@ -29,9 +29,9 @@ class AppContent extends StatelessWidget {
     return ListView(
       children: <Widget>[
         ListTile(
-          title: Text('Flex Layout'),
+          title: Text('Number\'s Layout'),
           onTap: () {
-            _open(context, FlexLayout());
+            _open(context, NumberLayout());
           },
         )
       ],
