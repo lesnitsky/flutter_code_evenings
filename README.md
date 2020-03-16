@@ -20,13 +20,11 @@ Feel free to submit PRs addressing issues with [practice label](https://github.c
 | Title | RU | EN |
 |---|---|---|
 | Code evening #1. Layout | [RU](https://www.youtube.com/watch?v=EQQHm6e4ozI) | Coming soon |
+| Code evening #2. State and context | [RU](https://www.youtube.com/watch?v=yd4rZXZOZXI) | Coming soon |
 
 ## Event registration
 
-- [Mar 10, 2020](https://community-z.com/events/flutter-2)
-- [Mar 17, 2020](https://community-z.com/events/flutter-3)
-- [Mar 24, 2020](https://community-z.com/events/flutter-4)
-- [Mar 31, 2020](https://community-z.com/events/flutter-5)
+Mar 17, 24, 31 events are postponed due to COVID-19
 
 ## Events feedback
 
