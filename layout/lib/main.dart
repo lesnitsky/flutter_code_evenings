@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:layout/layouts/flex.dart';
+import 'package:layout/layouts/pill.dart';
 
 void main() {
   runApp(App());
@@ -19,19 +19,21 @@ class App extends StatelessWidget {
   }
 }
 
+
+
 class AppContent extends StatelessWidget {
   _open(BuildContext context, Widget child) {
     Navigator.of(context).push(MaterialPageRoute(builder: (context) => child));
   }
-
+  
   @override
   Widget build(BuildContext context) {
     return ListView(
       children: <Widget>[
         ListTile(
-          title: Text('Flex Layout'),
+          title: Text('Pill Layout'),
           onTap: () {
-            _open(context, FlexLayout());
+            _open(context, PillLayout());
           },
         )
       ],
