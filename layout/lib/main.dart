@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:layout/layouts/flex.dart';
+import 'package:layout/layouts/button_tabs.dart';
 
 void main() {
   runApp(App());
@@ -29,9 +29,9 @@ class AppContent extends StatelessWidget {
     return ListView(
       children: <Widget>[
         ListTile(
-          title: Text('Flex Layout'),
+          title: Text('Button Tabs Layout'),
           onTap: () {
-            _open(context, FlexLayout());
+            _open(context, ButtonTabsLayout(title: 'Button Tabs Layout',));
           },
         )
       ],
