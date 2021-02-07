@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:layout/layouts/flex.dart';
+import 'package:layout/layouts/tile.dart';
 
 void main() {
   runApp(App());
@@ -29,9 +29,9 @@ class AppContent extends StatelessWidget {
     return ListView(
       children: <Widget>[
         ListTile(
-          title: Text('Flex Layout'),
+          title: Text('Tile Layout'),
           onTap: () {
-            _open(context, FlexLayout());
+            _open(context, TileLayout());
           },
         )
       ],
